@@ -2,7 +2,7 @@
 #andrew https://docs.google.com/document/d/1hA5mRtAiVFTnJYx3Y591MG3zVfPzRPDAdXCp0hxPiog/edit?tab=t.0
 
 # %%
-%pip install pandas
+#%pip install pandas
 
 import pandas as pd
 df = pd.read_csv(r"cafc-open-gouv-database-2021-01-01-to-2025-09-30-extracted-2025-10-01.csv")
@@ -65,7 +65,7 @@ print("There are " + str(total_nulls) + " null values in the dataset.")
 # %%
 # Data Visualization
 #NOTES: Convert/copy file from .ipynb to .py before deploying on GitHub, which is required for StreamLit
-%pip install streamlit_jupyter
+#%pip install streamlit_jupyter
 
 import streamlit as st
 
